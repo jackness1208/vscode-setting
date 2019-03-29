@@ -1,0 +1,218 @@
+{
+    "window.zoomLevel": 1,
+    "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.renderWhitespace": "all",
+    // + eslint
+    "eslint.nodePath": "~/AppData/Roaming/npm/eslint",
+    // - eslint
+    // + vim
+    "vim.leader": ";",
+    "vim.useSystemClipboard": false,
+    "vim.hlsearch": true,
+    "vim.handleKeys": {
+        "<C-d>": false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>"
+            ],
+            "after": [
+                "%"
+            ]
+        },
+        {
+            "before": [
+                "t",
+                "n"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "t",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "2"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<C-b>"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<tab>"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditorOrthogonal"
+            ]
+        }, {
+            "before": [
+                "g",
+                "c",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        }, {
+            "before": [
+                "<C-t>"
+            ],
+            "commands": [
+                "workbench.action.files.newUntitledFile"
+            ]
+        }, {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "revealFileInOS"
+            ]
+        }, {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "after": [
+                ":",
+                "q",
+                "<enter>"
+            ]
+        }, {
+            "before": [
+                "<C-j>"
+            ],
+            "commands": [
+                "workbench.action.togglePanel"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "/"
+            ],
+            "after": [
+                "<C-c>",
+                "/",
+                "<C-v>",
+                "<enter>"
+            ]
+        },
+        {
+            "before": [
+                "v",
+                "<leader>",
+                "e"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "v",
+                "<leader>",
+                "b"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>"
+            ],
+            "after": [
+                "%"
+            ]
+        },
+        {
+            "before": [
+                "<tab>"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        }
+    ],
+    "workbench.colorTheme": "Visual Studio Dark",
+    // - vim
+}
