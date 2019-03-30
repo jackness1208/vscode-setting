@@ -1,7 +1,9 @@
 {
     "window.zoomLevel": 1,
+    "workbench.colorTheme": "Visual Studio Dark",
     "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
     // + eslint
     "eslint.nodePath": "/usr/local/lib/node_modules/eslint",
     "eslint.run":"onSave",
@@ -13,8 +15,7 @@
     "vim.handleKeys": {
         "cmd+d": false
     },
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
+    "vim.normalModeKeyBindingsNonRecursive": [ {
             "before": [
                 "<leader>",
                 "e"
@@ -22,8 +23,7 @@
             "after": [
                 "$"
             ]
-        },
-        {
+        }, {
             "before": [
                 "<leader>",
                 "b"
@@ -31,8 +31,7 @@
             "after": [
                 "^"
             ]
-        },
-        {
+        }, {
             "before": [
                 "<leader>",
                 "<leader>"
@@ -40,8 +39,7 @@
             "after": [
                 "%"
             ]
-        },
-        {
+        }, {
             "before": [
                 "t",
                 "n"
@@ -49,8 +47,7 @@
             "commands": [
                 "workbench.action.nextEditor"
             ]
-        },
-        {
+        }, {
             "before": [
                 "t",
                 "p"
@@ -58,8 +55,7 @@
             "commands": [
                 "workbench.action.previousEditor"
             ]
-        },
-        {
+        }, {
             "before": [
                 "<leader>",
                 "2"
@@ -67,30 +63,27 @@
             "commands": [
                 "workbench.view.explorer"
             ]
-        },
-        {
+        }, {
             "before": [
                 "<tab>"
             ],
             "commands": [
                 "editor.action.indentLines"
             ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "w",
-                "s"
-            ],
-            "commands": [
-                "workbench.action.splitEditor"
-            ]
-        },
-        {
+        }, {
             "before": [
                 "<leader>",
                 "w",
                 "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        }, {
+            "before": [
+                "<leader>",
+                "w",
+                "s"
             ],
             "commands": [
                 "workbench.action.splitEditorOrthogonal"
@@ -136,10 +129,51 @@
                 "q",
                 "<enter>"
             ]
+        // +bookmarks
+        }, {
+            "before": [
+                "m",
+                "m"
+            ],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        }, {
+            "before": [
+                "m",
+                "n"
+            ],
+            "commands": [
+                "bookmarks.jumpToNext"
+            ]
+        }, {
+            "before": [
+                "m",
+                "N"
+            ],
+            "commands": [
+                "bookmarks.jumpToPrevious"
+            ]
+        }, {
+            "before": [
+                "m",
+                "l"
+            ],
+            "commands": [
+                "bookmarks.list"
+            ]
+        }, {
+            "before": [
+                "m",
+                "c"
+            ],
+            "commands": [
+                "bookmarks.clear"
+            ]
+        // -bookmarks
         }
     ],
-    "vim.visualModeKeyBindings": [
-        {
+    "vim.visualModeKeyBindings": [ {
             "before": [
                 "<leader>",
                 "e"
@@ -147,8 +181,7 @@
             "after": [
                 "$"
             ]
-        },
-        {
+        }, {
             "before": [
                 "/"
             ],
@@ -158,8 +191,7 @@
                 "cmd+v",
                 "<enter>"
             ]
-        },
-        {
+        }, {
             "before": [
                 "v",
                 "<leader>",
@@ -168,8 +200,7 @@
             "after": [
                 "$"
             ]
-        },
-        {
+        }, {
             "before": [
                 "<leader>",
                 "b"
@@ -177,8 +208,7 @@
             "after": [
                 "^"
             ]
-        },
-        {
+        }, {
             "before": [
                 "v",
                 "<leader>",
@@ -187,8 +217,7 @@
             "after": [
                 "^"
             ]
-        },
-        {
+        }, {
             "before": [
                 "<leader>",
                 "<leader>"
@@ -196,8 +225,7 @@
             "after": [
                 "%"
             ]
-        },
-        {
+        }, {
             "before": [
                 "<tab>"
             ],
@@ -206,6 +234,6 @@
             ]
         }
     ],
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vscode-great-icons",
     // - vim
 }

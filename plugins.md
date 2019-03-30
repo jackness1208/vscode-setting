@@ -3,3 +3,4 @@
 * ESLint
 * Vim
 * gitLens
+* vscode great icons

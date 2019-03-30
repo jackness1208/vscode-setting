@@ -13,5 +13,27 @@
     {
         "key": "cmd+t",
         "command": "-workbench.action.showAllSymbols"
+    },
+    // + list select
+    {
+        "key": "tab",
+        "command": "-acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "tab",
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus && !suggestWidgetMultipleSuggestions"
+    },
+    {
+        "key": "tab",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus && suggestWidgetMultipleSuggestions"
+    },
+    {
+        "key": "shift+tab",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus && suggestWidgetMultipleSuggestions"
     }
+    // - list select
 ]
