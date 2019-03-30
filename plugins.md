@@ -4,3 +4,4 @@
 * Vim
 * gitLens
 * vscode great icons
+* Path Intellisense
