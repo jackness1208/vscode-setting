@@ -3,4 +3,6 @@
 * ESLint
 * Vim
 * gitLens
+* vscode great icons
+* Path Intellisense
 * Bookmarks
