@@ -143,6 +143,30 @@
             "commands": [
                 "workbench.action.togglePanel"
             ]
+        }, {
+            "before": [
+                "m",
+                "m"
+            ],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        }, {
+            "before": [
+                "m",
+                "n"
+            ],
+            "commands": [
+                "bookmarks.jumpToNext"
+            ]
+        }, {
+            "before": [
+                "m",
+                "N"
+            ],
+            "commands": [
+                "bookmarks.jumpToPrevious"
+            ]
         }
     ],
     "vim.visualModeKeyBindings": [
@@ -210,6 +234,38 @@
             ],
             "commands": [
                 "editor.action.indentLines"
+            ]
+        }, {
+            "before": [
+                "'"
+            ],
+            "after": [
+                "d",
+                "i",
+                "'",
+                "<Esc>",
+                "p"
+            ]
+        }, {
+            "before": [
+                "\""
+            ],
+            "after": [
+                "d",
+                "i",
+                "\"",
+                "<Esc>",
+                "p"
+            ]
+        }, {
+            "before": [
+                "<C-v>"
+            ],
+            "after": [
+                "d",
+                "i",
+                "<C-v>",
+                "<Esc>"
             ]
         }
     ],
