@@ -1,9 +1,12 @@
 {
+    // + system
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vscode-great-icons",
     "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
+    // - system
     // + eslint
     "eslint.nodePath": "/usr/local/lib/node_modules/eslint",
     "eslint.run":"onSave",
@@ -15,7 +18,9 @@
     "vim.handleKeys": {
         "cmd+d": false
     },
-    "vim.normalModeKeyBindingsNonRecursive": [ {
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // + base
+        {
             "before": [
                 "<leader>",
                 "e"
@@ -23,7 +28,8 @@
             "after": [
                 "$"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<leader>",
                 "b"
@@ -31,7 +37,8 @@
             "after": [
                 "^"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<leader>",
                 "<leader>"
@@ -39,7 +46,8 @@
             "after": [
                 "%"
             ]
-        }, {
+        },
+        {
             "before": [
                 "t",
                 "n"
@@ -47,7 +55,8 @@
             "commands": [
                 "workbench.action.nextEditor"
             ]
-        }, {
+        },
+        {
             "before": [
                 "t",
                 "p"
@@ -55,7 +64,8 @@
             "commands": [
                 "workbench.action.previousEditor"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<leader>",
                 "2"
@@ -63,32 +73,16 @@
             "commands": [
                 "workbench.view.explorer"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<tab>"
             ],
             "commands": [
                 "editor.action.indentLines"
             ]
-        }, {
-            "before": [
-                "<leader>",
-                "w",
-                "v"
-            ],
-            "commands": [
-                "workbench.action.splitEditor"
-            ]
-        }, {
-            "before": [
-                "<leader>",
-                "w",
-                "s"
-            ],
-            "commands": [
-                "workbench.action.splitEditorOrthogonal"
-            ]
-        }, {
+        },
+        {
             "before": [
                 "g",
                 "c",
@@ -97,21 +91,24 @@
             "commands": [
                 "editor.action.commentLine"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<C-t>"
             ],
             "commands": [
                 "workbench.action.files.newUntitledFile"
             ]
-        }, {
+        },
+        {
             "before": [
                 "cmd+n"
             ],
             "commands": [
                 "workbench.action.files.newUntitledFile"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<leader>",
                 "o"
@@ -119,7 +116,8 @@
             "commands": [
                 "revealFileInOS"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<leader>",
                 "q"
@@ -129,8 +127,9 @@
                 "q",
                 "<enter>"
             ]
-        // +bookmarks
-        }, {
+            // +bookmarks
+        },
+        {
             "before": [
                 "m",
                 "m"
@@ -138,7 +137,8 @@
             "commands": [
                 "bookmarks.toggle"
             ]
-        }, {
+        },
+        {
             "before": [
                 "m",
                 "n"
@@ -146,7 +146,8 @@
             "commands": [
                 "bookmarks.jumpToNext"
             ]
-        }, {
+        },
+        {
             "before": [
                 "m",
                 "N"
@@ -154,7 +155,8 @@
             "commands": [
                 "bookmarks.jumpToPrevious"
             ]
-        }, {
+        },
+        {
             "before": [
                 "m",
                 "l"
@@ -162,7 +164,8 @@
             "commands": [
                 "bookmarks.list"
             ]
-        }, {
+        },
+        {
             "before": [
                 "m",
                 "c"
@@ -170,10 +173,12 @@
             "commands": [
                 "bookmarks.clear"
             ]
-        // -bookmarks
         }
+        // - bookmarks
     ],
-    "vim.visualModeKeyBindings": [ {
+    "vim.visualModeKeyBindings": [
+        // + base
+        {
             "before": [
                 "<leader>",
                 "e"
@@ -181,7 +186,8 @@
             "after": [
                 "$"
             ]
-        }, {
+        },
+        {
             "before": [
                 "/"
             ],
@@ -191,7 +197,8 @@
                 "cmd+v",
                 "<enter>"
             ]
-        }, {
+        },
+        {
             "before": [
                 "v",
                 "<leader>",
@@ -200,7 +207,8 @@
             "after": [
                 "$"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<leader>",
                 "b"
@@ -208,7 +216,8 @@
             "after": [
                 "^"
             ]
-        }, {
+        },
+        {
             "before": [
                 "v",
                 "<leader>",
@@ -217,7 +226,8 @@
             "after": [
                 "^"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<leader>",
                 "<leader>"
@@ -225,15 +235,37 @@
             "after": [
                 "%"
             ]
-        }, {
+        },
+        {
+            "before": [
+                "v",
+                "<leader>",
+                "<leader>"
+            ],
+            "after": [
+                "%"
+            ]
+        },
+        {
             "before": [
                 "<tab>"
             ],
             "commands": [
                 "editor.action.indentLines"
             ]
+        },
+        {
+            "before": [
+                "cmd+v"
+            ],
+            "after": [
+                "d",
+                "i",
+                "cmd+v",
+                "<Esc>"
+            ]
         }
+        // - base
     ],
-    "workbench.iconTheme": "vscode-great-icons",
     // - vim
 }

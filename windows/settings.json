@@ -1,9 +1,15 @@
 {
+    // + system
     "window.zoomLevel": 1,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vscode-great-icons",
     "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
+    // - system
     // + eslint
     "eslint.nodePath": "~/AppData/Roaming/npm/eslint",
+    "eslint.run":"onSave",
     // - eslint
     // + vim
     "vim.leader": ";",
@@ -13,6 +19,7 @@
         "<C-d>": false
     },
     "vim.normalModeKeyBindingsNonRecursive": [
+        // + base
         {
             "before": [
                 "<leader>",
@@ -69,14 +76,6 @@
         },
         {
             "before": [
-                "<C-b>"
-            ],
-            "commands": [
-                "workbench.action.toggleSidebarVisibility"
-            ]
-        },
-        {
-            "before": [
                 "<tab>"
             ],
             "commands": [
@@ -85,25 +84,6 @@
         },
         {
             "before": [
-                "<leader>",
-                "w",
-                "s"
-            ],
-            "commands": [
-                "workbench.action.splitEditor"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "w",
-                "v"
-            ],
-            "commands": [
-                "workbench.action.splitEditorOrthogonal"
-            ]
-        }, {
-            "before": [
                 "g",
                 "c",
                 "c"
@@ -111,14 +91,24 @@
             "commands": [
                 "editor.action.commentLine"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<C-t>"
             ],
             "commands": [
                 "workbench.action.files.newUntitledFile"
             ]
-        }, {
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                "workbench.action.files.newUntitledFile"
+            ]
+        },
+        {
             "before": [
                 "<leader>",
                 "o"
@@ -126,7 +116,8 @@
             "commands": [
                 "revealFileInOS"
             ]
-        }, {
+        },
+        {
             "before": [
                 "<leader>",
                 "q"
@@ -136,14 +127,18 @@
                 "q",
                 "<enter>"
             ]
-        }, {
+        },
+        {
             "before": [
-                "<C-j>"
+                "<C-b>"
             ],
             "commands": [
-                "workbench.action.togglePanel"
+                "workbench.action.toggleSidebarVisibility"
             ]
-        }, {
+        },
+        // - base
+        // + bookmarks
+        {
             "before": [
                 "m",
                 "m"
@@ -151,7 +146,8 @@
             "commands": [
                 "bookmarks.toggle"
             ]
-        }, {
+        },
+        {
             "before": [
                 "m",
                 "n"
@@ -159,7 +155,8 @@
             "commands": [
                 "bookmarks.jumpToNext"
             ]
-        }, {
+        },
+        {
             "before": [
                 "m",
                 "N"
@@ -167,9 +164,29 @@
             "commands": [
                 "bookmarks.jumpToPrevious"
             ]
+        },
+        {
+            "before": [
+                "m",
+                "l"
+            ],
+            "commands": [
+                "bookmarks.list"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "c"
+            ],
+            "commands": [
+                "bookmarks.clear"
+            ]
         }
+        // - bookmarks
     ],
     "vim.visualModeKeyBindings": [
+        // + base
         {
             "before": [
                 "<leader>",
@@ -230,34 +247,23 @@
         },
         {
             "before": [
+                "v",
+                "<leader>",
+                "<leader>"
+            ],
+            "after": [
+                "%"
+            ]
+        },
+        {
+            "before": [
                 "<tab>"
             ],
             "commands": [
                 "editor.action.indentLines"
             ]
-        }, {
-            "before": [
-                "'"
-            ],
-            "after": [
-                "d",
-                "i",
-                "'",
-                "<Esc>",
-                "p"
-            ]
-        }, {
-            "before": [
-                "\""
-            ],
-            "after": [
-                "d",
-                "i",
-                "\"",
-                "<Esc>",
-                "p"
-            ]
-        }, {
+        },
+        {
             "before": [
                 "<C-v>"
             ],
@@ -268,7 +274,7 @@
                 "<Esc>"
             ]
         }
+        // - base
     ],
-    "workbench.colorTheme": "Visual Studio Dark",
     // - vim
 }

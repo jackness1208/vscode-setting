@@ -1,8 +1,116 @@
 // Place your key bindings in this file to override the defaults
 [
+    // + base
     {
         "key": "ctrl+d",
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    // - base
+    // + vim
+    {
+        "key": "w v",
+        "command": "workbench.action.splitEditor",
+        "when": "editorFocus && vim.mode =='Normal'"
+    },
+    {
+        "key": "w s",
+        "command": "workbench.action.splitEditorOrthogonal",
+        "when": "editorFocus && vim.mode =='Normal'"
+    },
+    {
+        "key": "w q",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorFocus && vim.mode =='Normal'"
     }
+    // - vim
+    // + list select
+    {
+        "key": "tab",
+        "command": "-acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "tab",
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus && !suggestWidgetMultipleSuggestions"
+    },
+    {
+        "key": "tab",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus && suggestWidgetMultipleSuggestions"
+    },
+    {
+        "key": "shift+tab",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus && suggestWidgetMultipleSuggestions"
+    },
+    // - list select
+    // + sidebar - explorer
+    {
+        "key": "r",
+        "command": "workbench.files.action.refreshFilesExplorer",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "m d",
+        "command": "deleteFile",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "m r",
+        "command": "renameFile",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "m a",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "m o",
+        "command": "revealInExplorer",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "m s",
+        "command": "filesExplorer.findInFolder",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "s",
+        "command": "explorer.openToSide",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    // {
+    //     "key": "q",
+    //     "command": "workbench.action.toggleSidebarVisibility",
+    //     "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus && filesExplorerFocus"
+    // },
+    {
+        "key": "enter",
+        "command": "-renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    // - sidebar - explorer
+    // + sidebar - search
+    {
+        "key": "shift+f",
+        "command": "workbench.action.findInFiles",
+        "when": "editorTextFocus"
+    }
+    // - sidebar - search
 ]

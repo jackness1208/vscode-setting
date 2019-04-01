@@ -1,5 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
+    // + base
     {
         "key": "ctrl+d",
         "command": "-editor.action.addSelectionToNextFindMatch",
@@ -14,6 +15,28 @@
         "key": "cmd+t",
         "command": "-workbench.action.showAllSymbols"
     },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    // - base
+    // + vim
+    {
+        "key": "w v",
+        "command": "workbench.action.splitEditor",
+        "when": "editorFocus && vim.mode =='Normal'"
+    },
+    {
+        "key": "w s",
+        "command": "workbench.action.splitEditorOrthogonal",
+        "when": "editorFocus && vim.mode =='Normal'"
+    },
+    {
+        "key": "w q",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorFocus && vim.mode =='Normal'"
+    }
+    // - vim
     // + list select
     {
         "key": "tab",
