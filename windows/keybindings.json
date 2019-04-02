@@ -35,7 +35,37 @@
         "key": "w q",
         "command": "workbench.action.closeActiveEditor",
         "when": "editorFocus && vim.mode =='Normal'"
-    }
+    },
+    {
+        "key": "w e",
+        "command": "workbench.actions.view.problems",
+        "when": "editorFocus && vim.mode =='Normal'"
+    },
+    {
+        "key": "w a",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "editorFocus && vim.mode =='Normal'"
+    },
+    {
+        "key": "w p",
+        "command": "workbench.view.extensions",
+        "when": "editorFocus && vim.mode =='Normal'"
+    },
+    {
+        "key": "shift+tab",
+        "command": "editor.action.outdentLines",
+        "when": "editorFocus && vim.mode =='Normal'"
+    },
+    {
+        "key": "tab",
+        "command": "editor.action.indentLines",
+        "when": "editorFocus && vim.mode =='Normal'"
+    },
+    // {
+    //     "key": "c m",
+    //     "command": "workbench.action.editor.changeEOL",
+    //     "when": "editorFocus && vim.mode =='Normal'"
+    // },
     // - vim
     // + list select
     {
@@ -58,6 +88,11 @@
         "command": "selectPrevSuggestion",
         "when": "suggestWidgetVisible && textInputFocus && suggestWidgetMultipleSuggestions"
     },
+    {
+        "key": "tab",
+        "command": "settings.action.focusSettingsFile",
+        "when": "inSettingsSearch && !suggestWidgetVisible"
+    },
     // - list select
     // + sidebar - explorer
     {
@@ -77,6 +112,11 @@
     },
     {
         "key": "m a",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "m f",
         "command": "explorer.newFile",
         "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
     },
@@ -89,6 +129,31 @@
         "key": "m s",
         "command": "filesExplorer.findInFolder",
         "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "m y",
+        "command": "filesExplorer.copy",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+    },
+    {
+        "key": "m c",
+        "command": "filesExplorer.copy",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+    },
+    {
+        "key": "m v",
+        "command": "filesExplorer.paste",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "m p",
+        "command": "filesExplorer.paste",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "m x",
+        "command": "filesExplorer.cut",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
     },
     {
         "key": "s",

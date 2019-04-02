@@ -1,11 +1,13 @@
 {
     // + system
+    "editor.tabSize": 2,
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "vscode-great-icons",
     "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
+    "editor.renderIndentGuides": false,
     // - system
     // + eslint
     "eslint.nodePath": "~/AppData/Roaming/npm/eslint",
@@ -76,14 +78,6 @@
         },
         {
             "before": [
-                "<tab>"
-            ],
-            "commands": [
-                "editor.action.indentLines"
-            ]
-        },
-        {
-            "before": [
                 "g",
                 "c",
                 "c"
@@ -136,7 +130,19 @@
                 "workbench.action.toggleSidebarVisibility"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "m"
+            ],
+            "commands": [
+                "workbench.action.editor.changeEOL"
+            ]
+        }
         // - base
+        // + windows
+        // - windows
         // + bookmarks
         {
             "before": [
@@ -276,5 +282,6 @@
         }
         // - base
     ],
+    "search.location": "panel",
     // - vim
 }
