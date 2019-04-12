@@ -9,6 +9,9 @@
     "editor.tabCompletion": "on",
     "editor.renderIndentGuides": false,
     // - system
+    // + path Intellisense
+    "path-intellisense.autoSlashAfterDirectory": true,
+    // - path Intellisense
     // + eslint
     "eslint.nodePath": "~/AppData/Roaming/npm/eslint",
     "eslint.run":"onSave",
@@ -139,7 +142,7 @@
             "commands": [
                 "workbench.action.editor.changeEOL"
             ]
-        }
+        },
         // - base
         // + windows
         // - windows
@@ -188,8 +191,19 @@
             "commands": [
                 "bookmarks.clear"
             ]
-        }
+        },
         // - bookmarks
+        // + project manager
+        {
+            "before": [
+                "<leader>",
+                "1"
+            ],
+            "commands": [
+                "projectManager.listProjects"
+            ]
+        }
+        // - project manager
     ],
     "vim.visualModeKeyBindings": [
         // + base
@@ -283,5 +297,8 @@
         // - base
     ],
     "search.location": "panel",
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "git.autofetch": true,
     // - vim
 }

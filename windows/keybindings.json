@@ -175,7 +175,7 @@
     {
         "key": "shift+f",
         "command": "workbench.action.findInFiles",
-        "when": "editorTextFocus"
-    }
+        "when": "editorTextFocus && vim.mode =='Normal'"
+    },
     // - sidebar - search
 ]
