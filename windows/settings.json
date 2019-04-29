@@ -15,6 +15,17 @@
     // + eslint
     "eslint.nodePath": "~/AppData/Roaming/npm/eslint",
     "eslint.run":"onSave",
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
     // - eslint
     // + vim
     "vim.leader": ";",
@@ -141,6 +152,30 @@
             ],
             "commands": [
                 "workbench.action.editor.changeEOL"
+            ]
+        },
+        {
+            "before": [
+                "<C-a>"
+            ],
+            "commands": [
+                "editor.action.selectAll"
+            ]
+        },
+        {
+            "before": [
+                "<C-c>"
+            ],
+            "commands": [
+                "editor.action.clipboardCopyAction"
+            ]
+        },
+        {
+            "before": [
+                "<C-v>"
+            ],
+            "commands": [
+                "editor.action.clipboardPasteAction"
             ]
         },
         // - base
