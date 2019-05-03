@@ -8,14 +8,27 @@
     "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
-    "editor.renderIndentGuides": false,
     // + sync
-    "sync.gist": "7824a9c50777786f91bd1210eba538f2",
+    "sync.gist": "cdbc60c5bda5ca03d2b89ca4c012eb98",
     // - sync
     // - system
+    // + path Intellisense
+    "path-intellisense.autoSlashAfterDirectory": true,
+    // - path Intellisense
     // + eslint
     "eslint.nodePath": "/usr/local/lib/node_modules/eslint",
     "eslint.run":"onSave",
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
     // - eslint
     // + vim
     "vim.leader": ";",
@@ -146,7 +159,71 @@
         },
         // - base
         // + windows
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.splitEditorOrthogonal"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "e"
+            ],
+            "commands": [
+                "workbench.actions.view.problems"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "a"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "p"
+            ],
+            "commands": [
+                "workbench.view.extensions"
+            ]
+        },
         // - windows
+        // + indent
+        {
+            "before": [
+                "shift+tab"
+            ],
+            "commands": ["editor.action.outdentLines"]
+        },
+        {
+            "before": [
+                "tab"
+            ],
+            "commands": ["editor.action.indentLines"]
+        },
+        // - indent
         // + bookmarks
         {
             "before": [
@@ -192,8 +269,19 @@
             "commands": [
                 "bookmarks.clear"
             ]
-        }
+        },
         // - bookmarks
+        // + project manager
+        {
+            "before": [
+                "<leader>",
+                "1"
+            ],
+            "commands": [
+                "projectManager.listProjects"
+            ]
+        }
+        // - project manager
     ],
     "vim.visualModeKeyBindings": [
         // + base
