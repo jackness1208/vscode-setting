@@ -1,6 +1,6 @@
 {
     // + system
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "vscode-great-icons",
     "search.location": "panel",
@@ -16,20 +16,23 @@
     "path-intellisense.autoSlashAfterDirectory": true,
     // - path Intellisense
     // + eslint
+    "javascript.validate.enable": false,
     "eslint.nodePath": "/usr/local/lib/node_modules/eslint",
-    "eslint.run":"onSave",
+    "eslint.autoFixOnSave": true,
     "files.associations": {
         "*.vue": "vue"
     },
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        {
-            "language": "vue",
-            "autoFix": true
-        }
+        "vue"
     ],
+    "eslint.options": {
+        "plugins": ["html"]
+    },
     // - eslint
+    // + vetur
+    // - vetur
     // + vim
     "vim.leader": ";",
     "vim.useSystemClipboard": false,
@@ -82,6 +85,15 @@
             ],
             "commands": [
                 "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "t",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeOtherEditors"
             ]
         },
         {
@@ -374,5 +386,7 @@
         }
         // - base
     ],
+    "editor.wordWrap": "on",
+    "typescript.updateImportsOnFileMove.enabled": "always",
     // - vim
 }
