@@ -83,6 +83,15 @@
         },
         {
             "before": [
+                "t",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeOtherEditors"
+            ]
+        },
+        {
+            "before": [
                 "<leader>",
                 "2"
             ],
@@ -335,5 +344,5 @@
     "search.location": "panel",
     "editor.wordWrap": "on",
     "git.autofetch": true,
-    "sync.gist": "cdbc60c5bda5ca03d2b89ca4c012eb98",
+    "sync.gist": "f9c82beeab49c92d0cad56b209ce04a5",
 }
