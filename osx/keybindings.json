@@ -20,53 +20,6 @@
         "command": "-workbench.action.showAllSymbols"
     },
     // - base
-    // + vim
-    {
-        "key": "w v",
-        "command": "workbench.action.splitEditor",
-        "when": "editorFocus && vim.mode =='Normal'"
-    },
-    {
-        "key": "w s",
-        "command": "workbench.action.splitEditorOrthogonal",
-        "when": "editorFocus && vim.mode =='Normal'"
-    },
-    {
-        "key": "w q",
-        "command": "workbench.action.closeActiveEditor",
-        "when": "editorFocus && vim.mode =='Normal'"
-    },
-    {
-        "key": "w e",
-        "command": "workbench.actions.view.problems",
-        "when": "editorFocus && vim.mode =='Normal'"
-    },
-    {
-        "key": "w a",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "editorFocus && vim.mode =='Normal'"
-    },
-    {
-        "key": "w p",
-        "command": "workbench.view.extensions",
-        "when": "editorFocus && vim.mode =='Normal'"
-    },
-    {
-        "key": "shift+tab",
-        "command": "editor.action.outdentLines",
-        "when": "editorFocus && vim.mode =='Normal'"
-    },
-    {
-        "key": "tab",
-        "command": "editor.action.indentLines",
-        "when": "editorFocus && vim.mode =='Normal'"
-    },
-    // {
-    //     "key": "c m",
-    //     "command": "workbench.action.editor.changeEOL",
-    //     "when": "editorFocus && vim.mode =='Normal'"
-    // },
-    // - vim
     // + list select
     {
         "key": "tab",
@@ -173,7 +126,7 @@
     // - sidebar - explorer
     // + sidebar - search
     {
-        "key": "shift+f",
+        "key": "cmd+shift+f",
         "command": "workbench.action.findInFiles",
         "when": "editorTextFocus"
     }
