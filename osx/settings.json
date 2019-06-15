@@ -1,6 +1,6 @@
 {
     // + system
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "vscode-great-icons",
     "search.location": "panel",
@@ -9,7 +9,7 @@
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
     // + sync
-    "sync.gist": "cdbc60c5bda5ca03d2b89ca4c012eb98",
+    "sync.gist": "b6283dd70c926273fb25c06f062c130a",
     // - sync
     // - system
     // + path Intellisense
@@ -149,14 +149,6 @@
                 ":",
                 "q",
                 "<enter>"
-            ]
-        },
-        {
-            "before": [
-                "<C-b>"
-            ],
-            "commands": [
-                "workbench.action.toggleSidebarVisibility"
             ]
         },
         {
@@ -319,7 +311,6 @@
         },
         {
             "before": [
-                "v",
                 "<leader>",
                 "e"
             ],
@@ -338,7 +329,6 @@
         },
         {
             "before": [
-                "v",
                 "<leader>",
                 "b"
             ],
@@ -357,7 +347,6 @@
         },
         {
             "before": [
-                "v",
                 "<leader>",
                 "<leader>"
             ],
@@ -383,8 +372,20 @@
                 "cmd+v",
                 "<Esc>"
             ]
-        }
+        },
         // - base
+        // + system handle
+        {
+            "before": [
+                "cmd+x"
+            ],
+            "commands": [
+                "editor.action.webvieweditor.cut",
+                "extension.vim_escape",
+                "extension.vim_escape"
+            ]
+        }
+        // - system handle
     ],
     "editor.wordWrap": "on",
     "typescript.updateImportsOnFileMove.enabled": "always",
