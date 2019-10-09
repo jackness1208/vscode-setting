@@ -7,16 +7,20 @@
     "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
-    "editor.renderIndentGuides": false,
     // - system
     // + path Intellisense
     "path-intellisense.autoSlashAfterDirectory": true,
     // - path Intellisense
     // + eslint
     "eslint.nodePath": "~/AppData/Roaming/npm/eslint",
-    "eslint.run":"onSave",
+    "eslint.run": "onSave",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
     "files.associations": {
-        "*.vue": "vue"
+        "*.vue": "vue",
+        "*.wxml": "xml",
+        "*.wxss": "css"
     },
     "eslint.validate": [
         "javascript",
@@ -187,6 +191,14 @@
                 "editor.action.clipboardPasteAction"
             ]
         },
+        {
+            "before": [
+                "<C-f>"
+            ],
+            "commands": [
+                "actions.find"
+            ]
+        },
         // - base
         // + windows
         // - windows
@@ -329,6 +341,14 @@
         },
         {
             "before": [
+                "shift+tab"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
                 "<C-v>"
             ],
             "after": [
@@ -345,4 +365,7 @@
     "editor.wordWrap": "on",
     "git.autofetch": true,
     "sync.gist": "f9c82beeab49c92d0cad56b209ce04a5",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
 }
