@@ -26,6 +26,10 @@
         "javascript",
         "javascriptreact",
         {
+            "language": "html",
+            "autoFix": true
+        },
+        {
             "language": "vue",
             "autoFix": true
         }
