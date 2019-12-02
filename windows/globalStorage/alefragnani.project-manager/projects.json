@@ -1,0 +1,359 @@
+[
+	{
+		"name": "git.yy.com-webs/tofu_ui",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\tofu_ui",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-webs/yycom",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yycom",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-webs/usercenter",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\usercenter",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-webs/yycom_header",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yycom_header",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyl",
+		"rootPath": "f:\\github\\yyl",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyt",
+		"rootPath": "f:\\github\\yyt",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-webs/yycom_header_ie8",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yycom_header_ie8",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-webs/usercenterguide",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\usercenterguide",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-server/yyweb",
+		"rootPath": "f:\\svn\\git.yy.com\\server\\yylive\\community\\yyweb",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyl-seed-webpack",
+		"rootPath": "f:\\github\\yyl-seed-webpack",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/fet",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\fet",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyl-server",
+		"rootPath": "f:\\github\\yyl-server",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyl-hander",
+		"rootPath": "f:\\github\\yyl-hander",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-public/init-me-seed-yyl-react",
+		"rootPath": "f:\\svn\\git.yy.com\\opensource\\FEteam\\public\\init-me-seed-yyl-react",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/init-me-seed-initialize",
+		"rootPath": "f:\\github\\init-me-seed-initialize",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/init-me",
+		"rootPath": "f:\\github\\init-me",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyl-replacer",
+		"rootPath": "f:\\github\\yyl-replacer",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-webs/yycom_h5_zone",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yycom_h5_zone",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/tasks_center",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\tasks_center",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/yycom_myquiz",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yycom_myquiz",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/guid_grade_promote",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\guid_grade_promote",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-public/docker-yyl",
+		"rootPath": "f:\\svn\\git.yy.com\\opensource\\FEteam\\public\\docker-yyl",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/yycom_h5_live",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yycom_h5_live",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-public/init-me-seed-yyl-vue",
+		"rootPath": "f:\\svn\\git.yy.com\\opensource\\FEteam\\public\\init-me-seed-yyl-vue",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "yycom_backup_page",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yycom_backup_page",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/yycom_backup_page",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yycom_backup_page",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-public/h5service-parser",
+		"rootPath": "f:\\svn\\git.yy.com\\opensource\\FEteam\\public\\h5service-parser",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/wiki.jackness.org",
+		"rootPath": "f:\\github\\wiki.jackness.org",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/docker-jackness.org",
+		"rootPath": "f:\\github\\docker-jackness.org",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-public/init-me-seed-initialize",
+		"rootPath": "f:\\svn\\git.yy.com\\opensource\\FEteam\\public\\init-me-seed-initialize",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-public/init-me-seed-aquaman",
+		"rootPath": "f:\\svn\\git.yy.com\\opensource\\FEteam\\public\\init-me-seed-aquaman",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/h5_guild_center",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\h5_guild_center",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/h5service-parser",
+		"rootPath": "f:\\svn\\git.yy.com\\opensource\\FEteam\\public\\h5service-parser",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/yy.com_recharge",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yy.com_recharge",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyl-concat-webpack-plugin",
+		"rootPath": "f:\\github\\yyl-concat-webpack-plugin",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/init-me-seed-node",
+		"rootPath": "f:\\github\\init-me-seed-node",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyl-util",
+		"rootPath": "f:\\github\\yyl-util",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/guild_h5_zone",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\guild_h5_zone",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/init-me-seed-webpack-plugin",
+		"rootPath": "f:\\github\\init-me-seed-webpack-plugin",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyl-copy-webpack-plugin",
+		"rootPath": "f:\\github\\yyl-copy-webpack-plugin",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/yyl-sugar-webpack-plugin",
+		"rootPath": "f:\\github\\yyl-sugar-webpack-plugin",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/fet-tool",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\fet-tool",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/yms_week_active_anchor",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yms_week_active_anchor",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/yyl-doc",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yyl-doc",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/yyt-doc",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yyt-doc",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/init-me-doc",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\init-me-doc",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-web/anchor_growth_system",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\anchor_growth_system",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-public/framebridge",
+		"rootPath": "f:\\svn\\git.yy.com\\opensource\\FEteam\\public\\framebridge",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "git.yy.com-public/yy-stat",
+		"rootPath": "f:\\svn\\git.yy.com\\opensource\\FEteam\\public\\yy-stat",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "github/init-me-seed-rollup",
+		"rootPath": "f:\\github\\init-me-seed-rollup",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": " git.yy.com-web/yms_rhino",
+		"rootPath": "f:\\svn\\git.yy.com\\webs\\web_static\\yms_rhino",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	}
+]
