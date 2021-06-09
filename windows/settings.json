@@ -1,46 +1,45 @@
 {
-    // + system
-    "editor.tabSize": 2,
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "vscode-great-icons",
+    "editor.tabSize": 2,
     "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
+    // + sync
+    "sync.gist": "b6283dd70c926273fb25c06f062c130a",
+    // - sync
     // - system
     // + path Intellisense
     "path-intellisense.autoSlashAfterDirectory": true,
     // - path Intellisense
     // + eslint
-    "eslint.nodePath": "~/AppData/Roaming/npm/eslint",
-    "eslint.run": "onSave",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.tslint": true
-    },
+    "javascript.validate.enable": false,
     "files.associations": {
         "*.vue": "vue",
-        "*.wxml": "xml",
         "*.wxss": "css"
     },
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "vue",
-            "autoFix": true
-        }
+        "vue"
     ],
+    "eslint.options": {
+        "plugins": [""]
+    },
     // - eslint
+    // + vetur
+    // - vetur
     // + vim
     "vim.leader": ";",
     "vim.useSystemClipboard": false,
     "vim.hlsearch": true,
     "vim.handleKeys": {
-        "<C-d>": false
+        "cmd+d": false,
+        "cmd+f": false,
+        "cmd+a": false,
+        "<C-d>": false,
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-n>": false
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         // + base
@@ -197,10 +196,26 @@
         },
         {
             "before": [
-                "<C-f>"
+                "cmd+f"
             ],
             "commands": [
                 "actions.find"
+            ]
+        },
+        {
+            "before": [
+                "cmd+c"
+            ],
+            "commands": [
+                "editor.action.clipboardCopyAction"
+            ]
+        },
+        {
+            "before": [
+                "cmd+v>"
+            ],
+            "commands": [
+                "editor.action.clipboardPasteAction"
             ]
         },
         // - base
@@ -364,12 +379,25 @@
         }
         // - base
     ],
-    // - vim
-    "search.location": "panel",
     "editor.wordWrap": "on",
-    "git.autofetch": true,
-    "sync.gist": "f9c82beeab49c92d0cad56b209ce04a5",
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.migration.2_x": "off",
+    "terminal.integrated.rendererType": "dom",
+    "gitlab.instanceUrl": "https://git.yy.com",
+    "gitlens.views.repositories.files.layout": "tree",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "gitlens.views.lineHistory.enabled": false,
+    "gitlens.views.search.enabled": false,
+    "gitlens.views.fileHistory.enabled": false,
+    "gitlens.views.compare.enabled": false,
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "search.followSymlinks": false,
+    "git.autorefresh": true,
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
     },
+    "window.zoomLevel": 1
+    // - vim
 }
