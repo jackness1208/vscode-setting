@@ -1,7 +1,6 @@
 {
     "workbench.iconTheme": "vscode-great-icons",
-    "editor.tabSize": 2,
-    "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.wordSeparators":"/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?",
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
     // + sync
@@ -20,11 +19,10 @@
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        "vue"
+        "vue",
+        "typescript",
+        "typescriptreact"
     ],
-    "eslint.options": {
-        "plugins": [""]
-    },
     // - eslint
     // + vetur
     // - vetur
@@ -379,7 +377,7 @@
         }
         // - base
     ],
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "eslint.migration.2_x": "off",
@@ -398,6 +396,9 @@
     "gitlens.advanced.messages": {
         "suppressGitMissingWarning": true
     },
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "editor.cursorStyle": "line",
+    "editor.lineNumbers": "on",
+    "editor.tabSize": 2
     // - vim
 }
