@@ -1,9 +1,5 @@
 {
-    // + system
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "vscode-great-icons",
-    "search.location": "panel",
     "editor.tabSize": 2,
     "editor.wordSeparators":"`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.renderWhitespace": "all",
@@ -17,19 +13,17 @@
     // - path Intellisense
     // + eslint
     "javascript.validate.enable": false,
-    "eslint.nodePath": "/usr/local/lib/node_modules/eslint",
-    "eslint.autoFixOnSave": true,
     "files.associations": {
-        "*.vue": "vue"
+        "*.vue": "vue",
+        "*.wxss": "css"
     },
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        "vue"
+        "vue",
+        "typescript",
+        "typescriptreact"
     ],
-    "eslint.options": {
-        "plugins": ["html"]
-    },
     // - eslint
     // + vetur
     // - vetur
@@ -38,7 +32,13 @@
     "vim.useSystemClipboard": false,
     "vim.hlsearch": true,
     "vim.handleKeys": {
-        "cmd+d": false
+        "cmd+d": false,
+        "cmd+f": false,
+        "cmd+a": false,
+        "<C-d>": false,
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-n>": false
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         // + base
@@ -356,11 +356,15 @@
         },
         {
             "before": [
-                "<tab>"
+                "shift+tab"
             ],
-            "commands": [
-                "editor.action.indentLines"
-            ]
+            "commands": ["editor.action.outdentLines"]
+        },
+        {
+            "before": [
+                "tab"
+            ],
+            "commands": ["editor.action.indentLines"]
         },
         {
             "before": [
@@ -387,7 +391,26 @@
         }
         // - system handle
     ],
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.migration.2_x": "off",
+    "terminal.integrated.rendererType": "dom",
+    "gitlab.instanceUrl": "https://git.yy.com",
+    "gitlens.views.repositories.files.layout": "tree",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "gitlens.views.search.enabled": false,
+    "gitlens.views.fileHistory.enabled": false,
+    "gitlens.views.compare.enabled": false,
+    "search.followSymlinks": false,
+    "git.autorefresh": true,
+    "window.zoomLevel": 1,
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "editor.cursorStyle": "line",
+    "editor.lineNumbers": "on",
+    "workbench.editor.untitled.hint": "hidden"
     // - vim
 }
